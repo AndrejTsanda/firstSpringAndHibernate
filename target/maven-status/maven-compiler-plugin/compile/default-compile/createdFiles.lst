@@ -1,0 +1,6 @@
+ru/tsandaProject/contactManager/model/Contact.class
+ru/tsandaProject/contactManager/dao/ContactDAO.class
+ru/tsandaProject/contactManager/service/ContactService.class
+ru/tsandaProject/contactManager/dao/ContactDAOImpl.class
+ru/tsandaProject/contactManager/controllers/MainController.class
+ru/tsandaProject/contactManager/service/ContactServiceImpl.class

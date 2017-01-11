@@ -1,0 +1,59 @@
+body {
+    background-color: aqua;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    margin: auto;
+}
+th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+td {
+    padding: 10px 20px;
+    background: #F8E391;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+th:first-child, td:first-child {
+    text-align: center;
+}
+th:first-child {
+    border-top-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+    border-right: none;
+}
+.block {
+    position:relative;
+    text-align: center;
+    width:80%;
+    padding:1em;
+    margin:2em 10px 4em;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
